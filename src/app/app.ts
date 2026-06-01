@@ -23,7 +23,7 @@ export class App {
       name: 'Classic Mapache Polo - Heather Grey',
       category: 'Polo Shirts',
       price: 68.00,
-      image: '/images/model_grey.png',
+      image: 'images/model_grey.png',
       description: 'Crafted from 100% fine cotton pique. Features our signature black Raccoon embroidered emblem on the chest. Designed with a structured flat-knit collar and double-needle hem for timeless, casual-luxe daily wear.',
       colors: [
         { name: 'Heather Grey', hex: '#A8A29E' },
@@ -44,7 +44,7 @@ export class App {
       name: 'Basic Mapache Tee - Midnight Black',
       category: 'Basic T-Shirts',
       price: 45.00,
-      image: '/images/model_black.png',
+      image: 'images/model_black.png',
       description: 'Our core basic t-shirt in deep midnight black. Features a pristine white-threaded Raccoon emblem embroidered on the chest. Extremely soft, premium organic cotton jersey that drapes beautifully.',
       colors: [
         { name: 'Midnight Black', hex: '#1B1C1E' },
@@ -65,7 +65,7 @@ export class App {
       name: 'Basic Mapache Tee - Crisp White',
       category: 'Basic T-Shirts',
       price: 45.00,
-      image: '/images/model_white.png',
+      image: 'images/model_white.png',
       description: 'The ultimate white crew neck tee. Rendered in a stunning warm alabaster white and stitched with our classic black embroidered Raccoon emblem. An understated luxury piece for coastal afternoons.',
       colors: [
         { name: 'Crisp White', hex: '#FAF9F6' },
@@ -86,7 +86,7 @@ export class App {
       name: 'Heritage Mapache Polo - Navy Edition',
       category: 'Polo Shirts',
       price: 72.00,
-      image: '/images/model_grey.png', // Reusing grey polo image as template placeholder
+      image: 'images/model_grey.png', // Reusing grey polo image as template placeholder
       description: 'Our signature polo in deep Sartorial Navy. Perfect for a sporty yet elegant wardrobe. White-threaded Raccoon emblem creates a sharp, premium contrast. Inspired by traditional club wear.',
       colors: [
         { name: 'Sartorial Navy', hex: '#1A3154' },

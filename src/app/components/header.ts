@@ -15,7 +15,7 @@ import { CartService } from '../services/cart.service';
           (click)="$event.preventDefault(); selectCategory.emit('All')"
         >
           <div class="w-10 h-10 rounded-full overflow-hidden border border-brand-navy/10 flex-shrink-0 bg-brand-navy/5 p-0.5 group-hover:scale-105 transition-transform duration-300">
-            <img src="/logo.jpg" alt="Mapache Logo" class="w-full h-full object-contain rounded-full">
+            <img src="logo.jpg" alt="Mapache Logo" class="w-full h-full object-contain rounded-full">
           </div>
           <div class="flex flex-col">
             <span class="font-display font-bold text-lg leading-none tracking-tight text-brand-navy uppercase">Mapache</span>
