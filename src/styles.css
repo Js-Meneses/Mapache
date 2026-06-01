@@ -1,3 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import 'tailwindcss';
+
+@theme {
+  --font-display: 'Outfit', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+  
+  --color-brand-navy: #1A3154;
+  --color-canvas-stone: #FAF9F6;
+  --color-charcoal-ink: #1B1C1E;
+  --color-muted-linen: #78726A;
+  --color-sunset-amber: #D96B43;
+}
+
+body {
+  background-color: var(--color-canvas-stone);
+  color: var(--color-charcoal-ink);
+  font-family: 'Outfit', sans-serif;
+}
